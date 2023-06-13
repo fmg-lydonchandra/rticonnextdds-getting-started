@@ -1,0 +1,1 @@
+ rtiddsgen -update typefiles -language c# -d . ../hello_world.idl 

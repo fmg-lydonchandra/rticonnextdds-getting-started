@@ -17,5 +17,11 @@
         <PackageReference Include="Rti.ConnextDds.Extra" Version="6.1.1" />
         <PackageReference Include="System.CommandLine.DragonFruit" Version="0.3.0-alpha.20303.1" />
     </ItemGroup>
+    
+    <ItemGroup>
+      <Content Include="..\hello_world.idl">
+        <Link>hello_world.idl</Link>
+      </Content>
+    </ItemGroup>
 
 </Project>
