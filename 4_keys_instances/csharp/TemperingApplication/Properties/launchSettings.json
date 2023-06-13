@@ -1,0 +1,11 @@
+{
+  "$schema": "http://json.schemastore.org/launchsettings.json",
+  "profiles": {
+    "TemperingApplication": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "RTI_LICENSE_FILE": "/opt/rti_connext_dds-6.1.1/rti_license.dat"
+      }
+    }
+  }
+}

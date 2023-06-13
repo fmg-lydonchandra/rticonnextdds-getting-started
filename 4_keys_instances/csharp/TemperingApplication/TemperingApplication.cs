@@ -94,7 +94,7 @@ namespace KeysInstances
             // DomainParticipant QoS is configured in USER_QOS_PROFILES.xml
             DomainParticipant participant = DomainParticipantFactory.Instance
                 .CreateParticipant(domainId);
-
+            
             // A Topic has a name and a datatype.
             Topic<Temperature> temperatureTopic = participant.CreateTopic<Temperature>(
                 "ChocolateTemperature");

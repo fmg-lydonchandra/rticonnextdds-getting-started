@@ -8,4 +8,10 @@
     <PackageReference Include="Rti.ConnextDds" Version="7.1.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Content Include="..\..\chocolate_factory.idl">
+      <Link>chocolate_factory.idl</Link>
+    </Content>
+  </ItemGroup>
+
 </Project>
